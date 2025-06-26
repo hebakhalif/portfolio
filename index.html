@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan Darji - Personal Portfolio</title>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myyyy.jpg" alt="Heba Khalifah" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Heba Khalifah">Heba Khalifah</h1>
+          <p class="title">Flutter Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="habatrka@gmail.com" class="contact-link">habatrka@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="+20 1153187854" class="contact-link">+20 1153187854</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-08-24">December 10, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Egypt, Cairo</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="http://github.com/hebakhalif" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="http://linkedin.com/in/heba-khalifa1" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a passionate Flutter Developer with solid hands-on experience in Dart, BLoC, MVVM, and Firebase. I enjoy writing clean, maintainable code and building real-world mobile applications that provide smooth user experiences. I’ve worked on multiple personal and collaborative projects that strengthened my skills in state management, REST APIs, and UI/UX design.
+
+          </p>
+          <p>
+            I am always eager to learn new technologies and improve my skills I believe in the power of collaboration and enjoy working in a team environment My goal is to create innovative solutions that make a positive impact on users' lives.
+                 
+        </section>
+
+
+        <!--
+          recom
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recommendations</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Bhavesh Jani" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Bhavesh Jani</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the pleasure of working with aryan on a web development project. aryan is a dedicated and talented developer who consistently impressed the team with their commitment to excellence. Their strong understanding of web technologies, coupled with their passion for learning, made them an invaluable asset to the project. I would highly recommend aryan for any web development position or project.
+                  </p>
+                </div>
+
+              </div>
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Maitrik Patel" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Maitrik Patel</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with aryan was a fantastic experience. aryan is not only a skilled developer but also a great team player. They were always willing to go the extra mile to ensure that the project met its objectives. aryan's ability to quickly grasp new concepts and their eagerness to take on challenges make them an ideal candidate for any web development team.
+                  </p>
+                </div>
+
+              </div>
+              
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - recom modal
+        -->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <div data-modal-text>
+                <p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Tiba Academy
+                <br>
+                         Sep 2021 — Oct 2025
+                          Bachelor of Science in Information Systems
+                          Grade: Current GPA: 3.0 / 4.0
+                          Relevant coursework: Programming Fundamentals, Data Structures, Object-Oriented Programming, Databases, and Software Engineering</h4>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">position</h4>
+              <span>company</span>
+
+              <span>duration</span>
+
+              <p class="timeline-text">
+                Skills: 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section> -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+          <h5 class="h5 skills-title">Proficient in flutter Development Technologies</h5>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Dart</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flutter</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">mobile development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </li>
+
+        </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+        <h5 class="h5 skills-title">Experience with Flutter Frameworks/Libraries</h5>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">State management</h5>
+              <data value="85">85%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+          
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">MVVM (Architecture Pattern)</h5>
+              <data value="85">85%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+
+        </ul>
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Familiarity with Backend Technologies</h5>
+
+        <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Firebase Functions (for Backend logic)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+          <h5 class="h5 skills-title">Experience with Databases</h5>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Firebase Firestore</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Hive (local storage)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+          </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Experience with Version Control Systems</h5>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Git</h5>
+              <data value="65">65%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 65%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">GitHub</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+        </ul>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+        <h5 class="h5 skills-title">Experience With Flutter Development Tools</h5>
+
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Figma</h5>
+              <data value="80">80%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">VS Code</h5>
+              <data value="90">90%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+         
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Emulators & Android Debugging Tools</h5>
+              <data value="75">75%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Android Studio</h5>
+              <data value="75">75%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Postman</h5>
+              <data value="85">85%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+        </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #project
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Creative</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Critical</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Creative</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Critical</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://github.com/hebakhalif/RemindMeApp">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/imageRemindMe.jpg" alt="RemindMe" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RemindMe</h3>
+
+                <p class="project-category">mobile App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="creative">
+              <a href="https://github.com/hebakhalif/brandrepo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot 2025-06-27 003804.png" alt="CPU Scheduling" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-commerce Brandy</h3>
+
+                <p class="project-category">mobile App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="critical">
+              <a href="">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/coffy.jpg" alt="Typing Master" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coffee</h3>
+
+                <p class="project-category">mobile App (Ui)</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="critical">
+              <a href="">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/vvvv.jpg" alt="QRContactGen" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Login UI</h3>
+
+                <p class="project-category">Mobile App (Ui)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="critical">
+              <a href="https://github.com/hebakhalif/podcast">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot 2025-06-27 010737.png" alt="WhatsApp Messaging" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dr</h3>
+
+                <p class="project-category">Mobile App (Ui)</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#"
+                target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog.jpg" alt="xx"
+                    loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Flutter</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-07-27">Jul 27, 2022 · 7 min read</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Exploring the Stripe Payment Gateway In Flutter</h3>
+
+                  <p class="blog-text">
+                    Stripe payment gateway integration in flutter project.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <!-- <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?width=600&amp;height=400&amp"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article> -->
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
